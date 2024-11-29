@@ -1,42 +1,47 @@
 body {
   font-family: 'Noto Sans', sans-serif;
+  background-color: gray;
+  color: #FFBF00; /* Amber for general text */
 }
 
 .footer .icon-link {
   font-size: 25px;
-  color: #000;
+  color: #FFBF00; /* Amber for icons */
 }
 
 .link-block a {
-  margin: 5px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #FFBF00; /* Amber for links */
 }
 
 .dnerf {
   font-variant: small-caps;
+  color: #FFBF00; /* Amber */
 }
 
 .teaser .hero-body {
-  padding: 0 0 3rem 0;
+  padding-top: 0;
+  padding-bottom: 3rem;
 }
 
-.teaser, 
-.publication-title, 
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+  color: #FFBF00;
+}
+
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+  color: #800080; /* Purple for titles */
+}
+
+.publication-header .hero-body {
+  color: #FFBF00;
+}
+
 .publication-authors {
   font-family: 'Google Sans', sans-serif;
-}
-
-.publication-banner {
-  max-height: inherit;
-}
-
-.publication-banner video {
-  position: relative;
-  object-fit: contain;
-}
-
-.publication-venue, 
-.publication-awards {
-  width: fit-content;
+  color: #FFBF00; /* Amber for authors */
 }
 
 .publication-venue {
@@ -50,7 +55,7 @@ body {
 }
 
 .publication-authors a {
-  color: hsl(204, 86%, 53%) !important;
+  color: #FFBF00 !important;
 }
 
 .publication-authors a:hover {
@@ -59,11 +64,17 @@ body {
 
 .author-block {
   display: inline-block;
+  color: #FFBF00;
+}
+
+.publication-banner img {
+  border-radius: 10px;
 }
 
 .publication-video {
   position: relative;
   width: 100%;
+  height: 0;
   padding-bottom: 56.25%;
   overflow: hidden;
   border-radius: 10px !important;
@@ -83,10 +94,15 @@ body {
 
 .results-carousel .item {
   margin: 5px;
+  overflow: hidden;
   border: 1px solid #bbb;
   border-radius: 10px;
   padding: 0;
   font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
 }
 
 .interpolation-panel {
@@ -94,16 +110,15 @@ body {
   border-radius: 10px;
 }
 
-.interpolation-panel .interpolation-image,
-#interpolation-image-wrapper img {
+.interpolation-panel .interpolation-image {
   width: 100%;
   border-radius: 5px;
-}
-
-.interpolation-panel .slider {
-  margin: 0 !important;
 }
 
 #interpolation-image-wrapper {
   width: 100%;
 }
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+
