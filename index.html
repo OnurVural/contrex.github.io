@@ -209,12 +209,26 @@
         
         <div class="content has-text-justified">
           <p>
-            The results demonstrate the effectiveness of the proposed framework in predicting solar flares. We achieved significant improvements in classification accuracy, especially in handling extreme class imbalances. The figure below illustrates the performance metrics across different evaluation datasets.
+            t-SNE visualization of extracted embeddings suggests that our contrastive learning model effectively separates P and N classes.  
           </p>
         </div>
 
         <div class="content has-text-centered">
           <img src="./static/images/tsne2plot.pdf" 
+               alt="Results Graph" 
+               class="results-image" 
+               style="max-width: 100%; height: auto;">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            The results demonstrate the effectiveness of the proposed framework in predicting solar flares.  
+            We compare performance of CONTREX against following baselines from current solar flare research: Vector MVTS (VMVTS), 
+            Vector of last timestamp (LTV), Long-short term memory (LSTM), Random convolutional kernel transform (ROCKET).
+          </p>
+        </div>
+
+        <div class="content has-text-centered">
+          <img src="./static/images/performance_comparison_enhanced2.pdf" 
                alt="Results Graph" 
                class="results-image" 
                style="max-width: 100%; height: auto;">
@@ -246,29 +260,12 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            In this page, we used the following <a
+              href="https://github.com/nerfies/nerfies.github.io">template</a>.
           </p>
         </div>
       </div>
