@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Contrastive Representation Learning for Predicting Solar Flares from Extremely Imbalanced Multivariate Time Series Data.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="keywords" content="time series representation learning, contrastive representation learning, multivariate time series analysis, solar flare prediction, deep learning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contrastive Representation Learning for Predicting Solar Flares from Extremely Imbalanced Multivariate Time Series Data</title>
 
@@ -236,31 +236,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Major solar flares are abrupt surges in the Sun's magnetic flux, presenting significant risks to technological infrastructure. 
+            In view of this, effectively predicting major flares from solar active region magnetic field data through machine learning methods becomes highly important in space weather research. 
+            Magnetic field data can be represented in multivariate time series modality where the data displays an extreme class imbalance due to the rarity of major flare events. 
+            In time series classification-based flare prediction, the use of contrastive representation learning methods has been relatively limited. 
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            In this paper, we introduce CONTREX, a novel contrastive representation learning approach for multivariate time series data, 
+            addressing challenges of temporal dependencies and extreme class imbalance. 
+            Our method involves extracting dynamic features from the multivariate time series instances, 
+            deriving two extremes from positive and negative class feature vectors that provide maximum separation capability, 
+            and training a sequence representation embedding module with the original multivariate time series data guided by our novel contrastive reconstruction loss 
+            to generate embeddings aligned with the extreme points. These embeddings capture essential time series characteristics and enhance discriminative power. 
+            Our approach shows promising solar flare prediction results on the Space Weather Analytics for Solar Flares (SWAN-SF) multivariate time series benchmark dataset 
+            against baseline methods.
           </p>
         </div>
       </div>
@@ -422,11 +411,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{vural2024contrastive,
+  title={Contrastive representation learning for predicting solar flares from extremely imbalanced multivariate time series data},
+  author={Vural, Onur and Hamdi, Shah Muhammad and Boubrahimi, Soukaina Filali},
+  journal={arXiv preprint arXiv:2410.00312},
+  year={2024}
 }</code></pre>
   </div>
 </section>
