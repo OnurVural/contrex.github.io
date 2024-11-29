@@ -199,39 +199,37 @@
 
 
 
-
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
-
-    <!-- Results. -->
+    <!-- Results Section -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Results</h2>
-        <p>
-            t-SNE visualization of extracted embeddings suggests that our contrastive learning model effectively separates P and N classes.  
-        </p>
+        
+        <div class="content has-text-justified">
+          <p>
+            The results demonstrate the effectiveness of the proposed framework in predicting solar flares. We achieved significant improvements in classification accuracy, especially in handling extreme class imbalances. The figure below illustrates the performance metrics across different evaluation datasets.
+          </p>
         </div>
-        <div class="content has-text-centered">
-            <img src="./static/images/tsne2plot.pdf" 
-                 alt="Extreme Image" 
-                 class="extreme-image" 
-                 style="max-width: 100%; height: auto;">
-        </div>
-        <p>
-            We compare performance of CONTREX against following baselines from current solar flare research: 
-            Vector MVTS (VMVTS), Vector of last timestamp (LTV), Long-short term memory (LSTM), Random convolutional kernel transform (ROCKET)
-            Our experimental findings underscore CONTREX's competitiveness against state-of-the-art methods.
-        </p>
 
-      
+        <div class="content has-text-centered">
+          <img src="./static/images/tsne2plot.pdf" 
+               alt="Results Graph" 
+               class="results-image" 
+               style="max-width: 100%; height: auto;">
+        </div>
       </div>
     </div>
-    <!--/ Results. -->
+    <!--/ Results Section -->
 
   </div>
 </section>
+
+
+
+
+  
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
