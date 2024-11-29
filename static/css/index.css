@@ -1,23 +1,23 @@
 body {
   font-family: 'Noto Sans', sans-serif;
-  background-color: #808080; /* Gray background */
-  color: #FFBF00; /* Amber text for general content */
+  background-color: #D3D3D3; /* Light gray background */
+  color: #FF8C00; /* Dark amber text for general content */
 }
 
 footer .icon-link {
   font-size: 25px;
-  color: #FFBF00; /* Amber for icons */
+  color: #FF8C00; /* Dark amber for icons */
 }
 
 .link-block a {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #FFBF00; /* Amber for links */
+  color: #FF8C00; /* Dark amber for links */
 }
 
 .dnerf {
   font-variant: small-caps;
-  color: #FFBF00; /* Amber text */
+  color: #FF8C00; /* Dark amber text */
 }
 
 .teaser .hero-body {
@@ -27,21 +27,21 @@ footer .icon-link {
 
 .teaser {
   font-family: 'Google Sans', sans-serif;
-  color: #FFBF00; /* Amber text */
+  color: #FF8C00; /* Dark amber text */
 }
 
 .publication-title {
   font-family: 'Google Sans', sans-serif;
-  color: #800080; /* Purple for titles */
+  color: #4B0082; /* Dark purple for titles */
 }
 
 .publication-header .hero-body {
-  color: #FFBF00; /* Amber text */
+  color: #FF8C00; /* Dark amber text */
 }
 
 .publication-authors {
   font-family: 'Google Sans', sans-serif;
-  color: #FFBF00; /* Amber for authors */
+  color: #FF8C00; /* Dark amber for authors */
 }
 
 .publication-venue {
@@ -55,7 +55,7 @@ footer .icon-link {
 }
 
 .publication-authors a {
-  color: #FFBF00 !important; /* Amber for author links */
+  color: #FF8C00 !important; /* Dark amber for author links */
 }
 
 .publication-authors a:hover {
@@ -64,7 +64,7 @@ footer .icon-link {
 
 .author-block {
   display: inline-block;
-  color: #FFBF00; /* Amber text */
+  color: #FF8C00; /* Dark amber text */
 }
 
 .publication-banner img {
