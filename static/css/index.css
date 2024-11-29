@@ -1,10 +1,10 @@
 body {
   font-family: 'Noto Sans', sans-serif;
-  background-color: gray;
-  color: #FFBF00; /* Amber for general text */
+  background-color: #808080; /* Gray background */
+  color: #FFBF00; /* Amber text for general content */
 }
 
-.footer .icon-link {
+footer .icon-link {
   font-size: 25px;
   color: #FFBF00; /* Amber for icons */
 }
@@ -17,7 +17,7 @@ body {
 
 .dnerf {
   font-variant: small-caps;
-  color: #FFBF00; /* Amber */
+  color: #FFBF00; /* Amber text */
 }
 
 .teaser .hero-body {
@@ -27,7 +27,7 @@ body {
 
 .teaser {
   font-family: 'Google Sans', sans-serif;
-  color: #FFBF00;
+  color: #FFBF00; /* Amber text */
 }
 
 .publication-title {
@@ -36,7 +36,7 @@ body {
 }
 
 .publication-header .hero-body {
-  color: #FFBF00;
+  color: #FFBF00; /* Amber text */
 }
 
 .publication-authors {
@@ -45,17 +45,17 @@ body {
 }
 
 .publication-venue {
-  color: #555;
+  color: #555; /* Gray color for venue */
   font-weight: bold;
 }
 
 .publication-awards {
-  color: #ff3860;
+  color: #ff3860; /* Red for awards */
   font-weight: bolder;
 }
 
 .publication-authors a {
-  color: #FFBF00 !important;
+  color: #FFBF00 !important; /* Amber for author links */
 }
 
 .publication-authors a:hover {
@@ -64,7 +64,7 @@ body {
 
 .author-block {
   display: inline-block;
-  color: #FFBF00;
+  color: #FFBF00; /* Amber text */
 }
 
 .publication-banner img {
@@ -121,4 +121,3 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
-
